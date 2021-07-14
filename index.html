@@ -12,7 +12,7 @@
 		
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="./assets/css/images.css">
 	</head>
 	<body class="is-preload">
 
@@ -21,8 +21,8 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Who am I?</a></li>
-							<li><a href="#one">What do I?</a></li>
+							<li><a href="#intro">Who I am</a></li>
+							<li><a href="#one">What I do</a></li>
 							<li><a href="#two">Skills</a></li>
 							<li><a href="#three">Contact</a></li>
 						</ul>
@@ -36,11 +36,25 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Manuel Valenzuela Desarrollador Backend</h1>
-							<p>Desarrollador backend con .NET y Javascript</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
+							<div id="content_sc">
+								<img src='images/foto-perfil.jpg' />
+								<div>
+									<h2>Manuel de Jesús Valenzuela Gracián</h2>
+									<span class="subtitle">Desarrollador backend .NET</span>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="inner">
+							<h1>Manuel Valenzuela</h1>
+							<div class="inner" style="text-align: center;">
+								<div class="avatar" style="background-image: url(images/foto-perfil.jpg)">
+								</div>
+							</div>
+							
+						</div> -->
+					
+						<div class="inner">
+							<a href="#one" class="button scrolly">Learn more</a>
 						</div>
 					</section>
 
@@ -50,9 +64,10 @@
 						<section>
 							<div class="content">
 								<div class="inner">
-								<h2>WHAT DO I?</h2>
-									<h3>Sistema de ventas</h3>
-									<p>Cree sistema desktop para control de ventas para boutique utilize Windows Forms con C# y Gestor de Base de Datos MySql mediante Store Procedures.</p>
+								<h2>WHAT I DO</h2>
+									<ul>
+										<li>sistema desktop ventas para boutique con C#, MySql y Store Procedures.</li>
+									</ul>
 									<ul class="actions">
 										<!-- <li><a href="images/pic02.png" target="_blank" class="button">Image 1</a></li>
 										<li><a href="images/pic01.png" target="_blank" class="button">Image 2</a></li>
@@ -125,7 +140,7 @@
 									<span class="icon solid major fa-desktop"></span>
 									<h3>Herramientas</h3>
 									<ul>
-										<li>Visual Studio Desktop, WebForms y MVC</li>
+										<li>Visual Studio: Console, Desktop, WebForms y MVC</li>
 										<li>VS Code</li>
 										<li>Web Services</li>
 										<li>Report Viewer con Report Builder 3.0</li>
@@ -249,13 +264,6 @@
 
 	
 
-<script>
-	var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
 </script>
 			<!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
 			<!-- <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script> -->

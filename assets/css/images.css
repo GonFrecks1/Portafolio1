@@ -11,3 +11,49 @@ img {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+#foto-perfil {
+  width: 30%;
+}
+
+div.avatar {
+  /* cambia estos dos valores para definir el tamaño de tu círculo */
+  height: 200px;
+  width: 200px;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+#content_sc {
+  top: 15px;
+  width: 100%; /*600px;*/ /*642px including padding and border */
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #4a4061;
+  overflow: auto;
+  border-radius: 2%;
+  text-align: center;
+}
+#content_sc img {
+  width: 220px;
+  height: 220px;
+  float: left;
+  margin-right: 100px;
+  border-radius: 2%;
+}
+
+#content_sc div {
+  /* width: 480px;
+  height: 100px; */
+  float: left;
+  padding-top: 40px;
+}
+.subtitle {
+  font-size: 2.2em;
+}
